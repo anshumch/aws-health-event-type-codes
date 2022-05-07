@@ -65,5 +65,6 @@ def lambda_handler(event, context):
     
     return {
         'statusCode': 200,
+        'status': "Succeeded",
         'body': json.dumps(eventTypeCodes, default=str)
     }
