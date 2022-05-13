@@ -1,0 +1,150 @@
+[
+    {
+        "RoleName": "functionSupportCasesAllAccounts-role-oqtgjbwg",
+        "PolicyName": "AssumeRolePolicy",
+        "PolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Sid": "VisualEditor3",
+                    "Effect": "Allow",
+                    "Action": [
+                        "sts:*"
+                    ],
+                    "Resource": [
+                        "arn:aws:iam::933380251238:role/OrgApiReadAccess-933380251238",
+                        "arn:aws:iam::933380251238:role/OrgWideSupportApiAccess-933380251238",
+                        "arn:aws:iam::671988570539:role/OrgWideSupportApiAccess-671988570539"
+                    ]
+                }
+            ]
+        },
+        "ResponseMetadata": {
+            "RequestId": "1944ffce-467a-454a-a2db-5a290f6fe905",
+            "HTTPStatusCode": 200,
+            "HTTPHeaders": {
+                "x-amzn-requestid": "1944ffce-467a-454a-a2db-5a290f6fe905",
+                "content-type": "text/xml",
+                "content-length": "1418",
+                "date": "Thu, 12 May 2022 19:53:44 GMT"
+            },
+            "RetryAttempts": 0
+        }
+    },
+    {
+        "RoleName": "functionSupportCasesAllAccounts-role-oqtgjbwg",
+        "PolicyName": "OrgPolicy",
+        "PolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Sid": "VisualEditor0",
+                    "Effect": "Allow",
+                    "Action": "organizations:*",
+                    "Resource": "*"
+                }
+            ]
+        },
+        "ResponseMetadata": {
+            "RequestId": "67c10bff-0fc0-4e0f-b7f4-6c094f75c979",
+            "HTTPStatusCode": 200,
+            "HTTPHeaders": {
+                "x-amzn-requestid": "67c10bff-0fc0-4e0f-b7f4-6c094f75c979",
+                "content-type": "text/xml",
+                "content-length": "882",
+                "date": "Thu, 12 May 2022 19:53:44 GMT"
+            },
+            "RetryAttempts": 0
+        }
+    },
+    {
+        "RoleName": "functionSupportCasesAllAccounts-role-oqtgjbwg",
+        "PolicyName": "S3Policy",
+        "PolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Sid": "VisualEditor0",
+                    "Effect": "Allow",
+                    "Action": "s3:*",
+                    "Resource": "*"
+                }
+            ]
+        },
+        "ResponseMetadata": {
+            "RequestId": "3b7cce64-488b-4243-ac75-d4f08117adb7",
+            "HTTPStatusCode": 200,
+            "HTTPHeaders": {
+                "x-amzn-requestid": "3b7cce64-488b-4243-ac75-d4f08117adb7",
+                "content-type": "text/xml",
+                "content-length": "870",
+                "date": "Thu, 12 May 2022 19:53:44 GMT"
+            },
+            "RetryAttempts": 0
+        }
+    },
+    {
+        "RoleName": "functionSupportCasesAllAccounts-role-oqtgjbwg",
+        "PolicyName": "StsAccountsPolicy",
+        "PolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Sid": "VisualEditor0",
+                    "Effect": "Allow",
+                    "Action": [
+                        "sts:GetSessionToken",
+                        "sts:DecodeAuthorizationMessage",
+                        "sts:GetAccessKeyInfo",
+                        "sts:GetCallerIdentity",
+                        "sts:GetServiceBearerToken"
+                    ],
+                    "Resource": "*"
+                },
+                {
+                    "Sid": "VisualEditor1",
+                    "Effect": "Allow",
+                    "Action": "sts:*",
+                    "Resource": "arn:aws:iam::933380251238:role/OrgWideSupportApiAccess-933380251238"
+                }
+            ]
+        },
+        "ResponseMetadata": {
+            "RequestId": "53e2f441-b7db-4648-8671-22db0c67b596",
+            "HTTPStatusCode": 200,
+            "HTTPHeaders": {
+                "x-amzn-requestid": "53e2f441-b7db-4648-8671-22db0c67b596",
+                "content-type": "text/xml",
+                "content-length": "1761",
+                "date": "Thu, 12 May 2022 19:53:44 GMT"
+            },
+            "RetryAttempts": 0
+        }
+    },
+    {
+        "RoleName": "functionSupportCasesAllAccounts-role-oqtgjbwg",
+        "PolicyName": "SupportPolicy",
+        "PolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Sid": "VisualEditor0",
+                    "Effect": "Allow",
+                    "Action": "support:*",
+                    "Resource": "*"
+                }
+            ]
+        },
+        "ResponseMetadata": {
+            "RequestId": "40322510-c8cb-43a0-b9c9-1f81c7c6932a",
+            "HTTPStatusCode": 200,
+            "HTTPHeaders": {
+                "x-amzn-requestid": "40322510-c8cb-43a0-b9c9-1f81c7c6932a",
+                "content-type": "text/xml",
+                "content-length": "880",
+                "date": "Thu, 12 May 2022 19:53:44 GMT"
+            },
+            "RetryAttempts": 0
+        }
+    }
+]
