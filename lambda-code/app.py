@@ -61,7 +61,7 @@ def lambda_handler(event, context):
         else:
             nextTokenAvailable = False
             
-    print(eventTypeCodes)
+    # print(eventTypeCodes)
    
     bodyJson = {}
     bodyJson["message"] = "Succeeded"
